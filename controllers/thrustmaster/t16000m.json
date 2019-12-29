@@ -1,0 +1,136 @@
+{
+    "vendorID": 1103,
+    "productID": 45322,
+    "joysticks": [
+        {
+            "name": "center",
+            "x": {
+                "pin": 3
+            },
+            "y": {
+                "pin": 5
+            }
+        },
+        {
+            "name": "center2",
+            "x": {
+                "pin": 4
+            },
+            "y": {
+                "pin": 6
+            }
+        },
+        {
+            "name": "jaw",
+            "x": {
+                "pin": 7
+            },
+            "y": {
+                "pin": 7
+            }
+        }
+    ],
+    "buttons": [
+        {
+            "value": 16,
+            "pin": 0,
+            "name": "1"
+        },
+        {
+            "value": 32,
+            "pin": 0,
+            "name": "2"
+        },
+        {
+            "value": 64,
+            "pin": 0,
+            "name": "3"
+        },
+        {
+            "value": 2,
+            "pin": 1,
+            "name": "4"
+        },
+        {
+            "value": 1,
+            "pin": 1,
+            "name": "5"
+        },
+        {
+            "value": 128,
+            "pin": 0,
+            "name": "6"
+        },
+        {
+            "value": 16,
+            "pin": 1,
+            "name": "right1"
+        },
+        {
+            "value": 8,
+            "pin": 1,
+            "name": "right2"
+        },
+        {
+            "value": 4,
+            "pin": 1,
+            "name": "right3"
+        },
+        {
+            "value": 32,
+            "pin": 1,
+            "name": "right4"
+        },
+        {
+            "value": 64,
+            "pin": 1,
+            "name": "right5"
+        },
+        {
+            "value": 128,
+            "pin": 1,
+            "name": "right6"
+        },
+        {
+            "value": 1,
+            "pin": 0,
+            "name": "fire"
+        },
+        {
+            "value": 4,
+            "pin": 0,
+            "name": "left"
+        },
+        {
+            "value": 8,
+            "pin": 0,
+            "name": "right"
+        },
+        {
+            "value": 2,
+            "pin": 0,
+            "name": "down"
+        }
+    ],
+    "status": [
+        {
+            "pin": 2,
+            "name": "hat",
+            "states": [
+                { "value": 0, "state": "up" },
+                { "value": 2, "state": "right" },
+                { "value": 4, "state": "down" },
+                { "value": 6, "state": "left" },
+                { "value": 63, "state": "center" }
+            ]
+        },
+        {
+            "pin": 8,
+            "name": "throttle",
+            "states": [
+                { "value": 255, "state": "255" },
+                { "value": 0, "state": "0" }
+            ]
+        }
+    ]
+}
